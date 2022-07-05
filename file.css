@@ -1,0 +1,108 @@
+body {
+    font-size: 14px;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    position: absolute;
+    top : 180px;
+    left : 380px; 
+    border-radius: 10px;
+    width: 740px;
+    height: 510px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+img {
+    height: 510px;
+    width: 320px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 60px;
+}
+.text {
+    background-color: white;
+    height: 510px;
+    width: 270px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: 70px;
+    padding : 0px 15px 0px 15px;
+    
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color:  hsl(158, 36%, 37%);
+    line-height: 1.4rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color:  hsl(158, 36%, 37%);
+}
+
+.price {
+    font-family: 'Fraunces', serif;
+    color:hsl(158, 36%, 37%);
+    font-size: 2rem;
+}
+
+small {
+    font-size: 1rem;
+    margin : 0 0 0 20px; 
+    text-decoration: line-through;
+    position: relative;
+    bottom : 7px
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    line-height: 2.4rem;
+    width: 250px;
+}
+
+.cart {
+    margin-right: 10px;
+}
+
+.attribution {
+    position: absolute; 
+    bottom: 10px;
+    left : 40%;
+}
+
+button {
+    width : 230px;
+    height : 50px;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: 'Fraunces', serif;
+    font-size: 1rem;
+    margin-top: 20px;
+    cursor: grab;
+}
+
+button:hover {
+    background-color: hsl(212, 21%, 14%);
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        position: absolute;
+        left: 50px;
+    }
+}
+
+
+
+
